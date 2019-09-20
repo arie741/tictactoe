@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<meta charset="UTF-8">
+		<title>Tic Tac Toe game</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-12">
+				<h1 class="span3">Tic Tac Toe</h1>
+			</div>
+			<div class="col-12">
+				<div class="span3">
+					<div class="input-prepend input-append">
+						<span class="add-on win_text">O won</span><strong id="o_win" class="win_times add-on"> 0 </strong><span class="add-on">time(s)</span>
+					</div>
+					<div class="input-prepend input-append">
+						<span class="add-on win_text">X won</span><strong id="x_win" class="win_times add-on"> 0 </strong><span class="add-on">time(s)</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="tic-tac-toe">			
+			<div class="row" >
+				<div class="col-12" id="game">
+					<div class="row">
+						
+					</div>
+				</div>
+			</div>
+			<div class="clr">&nbsp;</div>
+			<div class="row"><a href="#" id="reset" class="btn-warning btn span3" >Restart</a></div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
